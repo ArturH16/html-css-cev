@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        
+        }
+
+        
+
+        article {
+            background-color: lightgray;
+        }
+
+        nav {
+            background-color: rgb(100, 100, 100);
+            padding: 3px;
+            box-shadow: 6px 5px 6px 0px #00000096;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article > aside{
+            background-color: rgb(167, 165, 165);
+            padding: 5px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 5px 1px #00000066;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título do Site</h1>
+        <nav>
+            <a href="3">Cheri Cheri Lady</a>
+            <a href="4">Link</a>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+            <a href="3">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Noticias Sobre o Neymar</h2>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, tempore? Consequuntur rem rerum exercitationem repellat culpa, dolorem minima obcaecati laborum eos assumenda. Eligendi debitis, dolorem eius qui dolor id temporibus.
+            </article>
+        </section>
+
+        <section id="noticias">
+            <h2>Notícia sobre o Brasil</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque non magni commodi architecto molestias quis, est labore fugiat nobis ullam, voluptate ipsum omnis perspiciatis accusantium quae, eaque consectetur amet enim!</p>
+                <aside>
+                    Artigo escrito por Artur Holanda
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Artur Holanda</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
