@@ -30,7 +30,7 @@ h1 {
 }
 
 header p {
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
@@ -50,19 +50,76 @@ main p {
     font-size: 49px;
 }
 
+.estrofes {
+    padding-left: 30px;
+}
+
 #estrofe1 {
     margin-bottom: 100px;
 }
 
 #estrofe2 {
+    position: relative;
     background-image: url(arquivosAuxiliares/imagens/background001.jpg);
     color: white;
-    padding-top: 40px;
+    padding-top: 55px;
     padding-bottom: 65px;
+    padding-left: 30px;
     background-size: cover;
     background-attachment: fixed;
+    height: 96vh;
 }
 
 #estrofe2 span {
+    position: absolute;
     background-color: black;
+    display: block;
+}
+
+#estrofe3 {
+    margin-top: 60px;
+}
+
+#estrofe4 {
+    margin-top: 90px;
+}
+
+#estrofe5 {
+    box-shadow: inset 0px 3px 5px 5px rgba(0, 0, 0, 0.219);
+    position: relative;
+    background-image: url(arquivosAuxiliares/imagens/background002.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 85px;
+    height: 96vh;
+}
+
+#estrofe5 span {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#estrofe6 {
+    margin-top: 85px;
+}
+
+#estrofe7 {
+    margin-top: 85px;
+    margin-bottom: 150px;
+}
+
+footer {
+    padding: 8px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
