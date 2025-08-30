@@ -40,8 +40,29 @@ a {
     font-weight: bold;
 }
 
+main {
+    margin-top: 70px;
+}
+
 
 main p {
     font-family: var(--fonte-poema);
+    font-size: 49px;
 }
 
+#estrofe1 {
+    margin-bottom: 100px;
+}
+
+#estrofe2 {
+    background-image: url(arquivosAuxiliares/imagens/background001.jpg);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#estrofe2 span {
+    background-color: black;
+}
