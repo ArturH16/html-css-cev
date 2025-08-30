@@ -41,6 +41,7 @@ a {
 }
 
 main {
+    min-width: 300px;
     margin-top: 70px;
 }
 
