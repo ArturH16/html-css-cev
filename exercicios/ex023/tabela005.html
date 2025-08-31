@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.6em;
+            font-weight: bolder;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        .destaque {
+            background-color: yellow;
+        }
+        .destaque2 {
+            background-color: red;
+        }
+
+        .destaque3 {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Exercício de Tabela </h1>
+    <table>
+        <colgroup>
+            <col class="destaque">
+            <col class="destaque2">
+            <col class="destaque3" span="2">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Artur</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Gafanhoto</td>
+        </tr>
+        <tr>
+            <td>Syvelster Stallone</td>
+            <td>M</td>
+            <td>80</td>
+            <td>Italian Stallion</td>
+        </tr>
+    </table>
+</body>
+</html>
