@@ -6,6 +6,7 @@
     <title>Tabelas Grandes</title>
     <style>
         table {
+            position: relative;
             width: 400px;
             border: 1px solid black;
             border-collapse: collapse;
@@ -16,10 +17,28 @@
             text-align: center;
             padding: 10px;
         }
+        
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         thead,tfoot {
             background-color: gray;
             color: white;
+        }
+        
+        thead th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
+            font-weight: bold;
         }
 
         .numero {
@@ -30,10 +49,13 @@
 <body>
     <h1>Anatomia para Tabelas Grandes</h1>
     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
@@ -56,11 +78,59 @@
                 <td>Ceará</td>
                 <td class="numero">9 268 836</td>
             </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 268 836</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero"><strong>213 421 037</strong>	 </td>
             </tr>
         </tfoot>
