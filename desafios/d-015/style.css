@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+
+
+.logos {
+    position: relative;
+    display: inline-block;
+}
+
+.logos_img {
+    display: block;
+    position: absolute;
+    transform: translate(341%);
+}
+
+#celular{
+    display: block;
+    margin: auto;
+}
