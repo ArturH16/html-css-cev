@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="[text]" id="nome" minlength="3">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" name="" id="email" autocomplete="email">
+            </p>
+            <p>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="" id="tel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="XXXX-XXXX">
+            </p>
+            
+        </fieldset>
+
+        <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar cadastro">
+            </p>
+
+    </form>
+    
+</body>
+</html>
