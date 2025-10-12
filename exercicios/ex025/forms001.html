@@ -7,13 +7,15 @@
 </head>
 <body>
     <h1>Meu primeiro formulário!</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.js" method="post">
         <p><label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" autocomplete="off"></input></p>
         <p><label for="sobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobrenome" autocomplete="off"></input></p>
-        <p><input type="button" value="Submeter"></p>
+        <p><input type="submit" value="Submeter" id="botao"></p>
     </form>
+
+    <script src="cadastro.js"></script>
     
 </body>
 </html>
