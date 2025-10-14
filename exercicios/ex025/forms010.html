@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <form action="cadastro.js">
+
+        <p>
+            <label for="ano">Qual ano você nasceu? </label>
+            <input type="number" name="" id="ano" min="1900" max="2025" oninput="idad.innerHTML = 2025 - Number(ano.value)">
+        </p>
+
+        <p>
+            <label for="idade">Idade</label>
+            <output id="idad">0</output>
+        </p>
+
+
+
+
+
+        <p>
+            <input type="submit" value="Entrar">
+
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

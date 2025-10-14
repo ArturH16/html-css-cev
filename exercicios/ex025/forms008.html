@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+   <form action="cadastro.js">
+
+    <p>
+        <label for="n1">Número1:</label>
+        <input type="number" name="" id="n1" min="0" oninput="sum.innerHTML=Number(n1.value) + Number(n2.value)">
+    </p>
+
+    <p>
+        <label for="n2">Número2:</label>
+        <input type="number" name="" id="n2" min="0"  oninput="sum.innerHTML=Number(n1.value)+ Number(n2.value)">
+    </p>
+
+    <p>
+
+        <label for="sum">Soma:</label>
+        <output id="sum">0</output>
+    </p>
+    
+    
+    
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+   </form>
+    
+</body>
+</html>
