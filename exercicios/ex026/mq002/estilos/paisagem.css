@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*Estilo para telas na horizontal (landscape)*/
+
+
+body {
+    background-color: orange;
+    background-image: url(../imagens/cev-landscape.jpg);
+}
