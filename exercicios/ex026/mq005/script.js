@@ -1,4 +1,4 @@
-    let menu = document.getElementById('itens')
+let menu = document.getElementById('itens')
 
 function mostrarOpcoes() {
     if (menu.style.display == 'block') {
@@ -8,11 +8,6 @@ function mostrarOpcoes() {
     }
 }
 
-let corpo = document.getElementsByTagName('body')
-corpo.addEventListener('onresize',mudouTamanho)
-let menu_icon = document.getElementById('burguer')
-menu_icon.addEventListener('click',mostrarOpcoes)
-
 function mudouTamanho() {
     if (window.innerWidth >= 768) {
         menu.style.display = 'block'
@@ -20,3 +15,9 @@ function mudouTamanho() {
         menu.style.display = 'none'
     }
 }
+
+let corpo = document.getElementById('corpo')
+corpo.addEventListener('resize',mudouTamanho)
+let menu_icon = document.getElementById('burguer')
+menu_icon.addEventListener('click',mostrarOpcoes)
+
