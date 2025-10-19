@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*Estilo geral baseado no mobile first
+*/
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(90deg,#5F2D82,#536B91, #4C9199);
+}
+
+div {
+     background-image: url(../imagens/pexels-sean-whang-25006-804269.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: block;
+    background-color: white;
+    text-align: center;
+    width: 40vw;
+    height: 70vh;
+    padding: 10px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+#pwd {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#bot_entrar {
+    background-color: #53AAA7;
+    padding: 10px;
+    color: white;
+    width: 150px;
+}
+
+#bot_esqueci_pwd {
+    margin-top: 5px;
+    background-color: white;
+    color: #53AAA7;
+    padding: 10px;
+    width: 150px;
+}
