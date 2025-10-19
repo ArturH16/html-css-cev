@@ -31,6 +31,9 @@ main {
     border-radius: 15px;
 }
 
+input {
+    background-color: #94CFCD;
+}
 #pwd {
     margin-left: 5px;
     margin-bottom: 5px;
