@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*Estilo de acordo com mobile first*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E3E3E1;
+}
+
+#cabecalho {
+padding: 10px;
+color: white;
+background-color: rgba(128, 128, 128, 0.788);
+text-align: center;
+}
+
+#cabecalho h1 {
+    margin-bottom: 14px;
+    font-weight: bold;
+
+    
+}
+
+.opcao {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80vw;
+    background-color: black;
+    border-radius: 4px;
+}
+
+main {
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

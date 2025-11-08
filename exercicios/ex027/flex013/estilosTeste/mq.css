@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    #menu {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+    #cabecalho h1 {
+        text-align: left;
+        
+    }
+
+    .opcao {
+        padding: 9px;
+        flex-basis: 90px;
+        margin: 5px;
+    }
+
+
+        
+    }
+
+@media screen and (min-width: 1280px) {
+        #menu {
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: row nowrap;
+
+        }
+        #cabecalho h1 {
+            float: left;
+        }
+
+    .opcao {
+        margin: 5px;
+        padding: 9px;
+        flex-basis: 90px;
+    }
+
+
+    }
