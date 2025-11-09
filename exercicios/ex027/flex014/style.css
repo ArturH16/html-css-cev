@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+main h2 {
+    margin-bottom: 5px;
+}
+
+#flex1 {
+    display: flex;
+    padding: 5px;
+    flex-flow: row nowrap;
+}
