@@ -25,12 +25,11 @@ header {
 }
 
 header h1 {
-    border: 1px dotted black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
 }
 
 header nav {
-    border: 1px dotted black;
     display: flex;
     flex: row wrap;
     justify-content: flex-end;
@@ -58,4 +57,24 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.418);
+}
+
+@media screen and (max-width: 600px) {
+
+    header, header nav {
+        flex-flow: column nowrap;
+    }
+    header h1 {
+        flex-basis: 50px;
+        
+    }
+    header nav a {
+        width: 90vw;
+    }
+
+    main {
+        margin: 4px;
+    }
+
+
 }
